@@ -1,0 +1,27 @@
+
+
+{
+    "scripts": {
+        "start": "json-server --watch users.json --port 3000"
+      },
+
+    "users": [
+        {
+            "id": 1,
+            "fullname": "Matthew Mcconaughey",
+            "branch": "Actor"
+        },
+
+        {
+            "id": 2,
+            "fullname": "Dakota Johnson",
+            "branch": "Singer"
+        },
+
+        {
+            "id": 3,
+            "fullname": "Dylan O'Brien",
+            "branch": "Artist"
+        }
+    ]
+}
